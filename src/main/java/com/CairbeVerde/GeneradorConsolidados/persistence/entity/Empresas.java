@@ -4,11 +4,13 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Table(name= "empresas")
 @Entity
 public class Empresas {
+    @Id
     @Column(name= "nit")
     private String nit;
     @Column(name= "nombre")
