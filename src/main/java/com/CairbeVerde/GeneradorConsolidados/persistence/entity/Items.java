@@ -20,7 +20,7 @@ public class Items {
     @Column(name="fecha_salida")
     private LocalDateTime fechaSalita;
     @Column(name = "planillas_recepcion_codigo_planilla")
-    private Integer planillasRecepcionCodigoPlanilla
+    private Integer planillasRecepcionCodigoPlanilla;
     @Column(name = "barrios_idbarrio")
     private Integer barrioIdBarrio;
     @Column(name = "camiones_codigo")
