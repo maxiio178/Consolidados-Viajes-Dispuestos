@@ -48,4 +48,180 @@ public class Items {
     private Double mcubico;
     @Column(name ="camiones_peso")
     private Integer camionesPeso;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getRecibo() {
+        return recibo;
+    }
+
+    public void setRecibo(String recibo) {
+        this.recibo = recibo;
+    }
+
+    public Integer getItem() {
+        return item;
+    }
+
+    public void setItem(Integer item) {
+        this.item = item;
+    }
+
+    public Integer getCodigoEmpleado() {
+        return codigoEmpleado;
+    }
+
+    public void setCodigoEmpleado(Integer codigoEmpleado) {
+        this.codigoEmpleado = codigoEmpleado;
+    }
+
+    public LocalDateTime getFechaPlanilla() {
+        return fechaPlanilla;
+    }
+
+    public void setFechaPlanilla(LocalDateTime fechaPlanilla) {
+        this.fechaPlanilla = fechaPlanilla;
+    }
+
+    public LocalDateTime getFechaSalita() {
+        return fechaSalita;
+    }
+
+    public void setFechaSalita(LocalDateTime fechaSalita) {
+        this.fechaSalita = fechaSalita;
+    }
+
+    public Integer getPlanillasRecepcionCodigoPlanilla() {
+        return planillasRecepcionCodigoPlanilla;
+    }
+
+    public void setPlanillasRecepcionCodigoPlanilla(Integer planillasRecepcionCodigoPlanilla) {
+        this.planillasRecepcionCodigoPlanilla = planillasRecepcionCodigoPlanilla;
+    }
+
+    public Integer getBarrioIdBarrio() {
+        return barrioIdBarrio;
+    }
+
+    public void setBarrioIdBarrio(Integer barrioIdBarrio) {
+        this.barrioIdBarrio = barrioIdBarrio;
+    }
+
+    public String getCamionesCodigo() {
+        return camionesCodigo;
+    }
+
+    public void setCamionesCodigo(String camionesCodigo) {
+        this.camionesCodigo = camionesCodigo;
+    }
+
+    public String getNitEmpresas() {
+        return nitEmpresas;
+    }
+
+    public void setNitEmpresas(String nitEmpresas) {
+        this.nitEmpresas = nitEmpresas;
+    }
+
+    public LocalDateTime getHoraLLegada() {
+        return horaLLegada;
+    }
+
+    public void setHoraLLegada(LocalDateTime horaLLegada) {
+        this.horaLLegada = horaLLegada;
+    }
+
+    public LocalDateTime getIniDescargue() {
+        return iniDescargue;
+    }
+
+    public void setIniDescargue(LocalDateTime iniDescargue) {
+        this.iniDescargue = iniDescargue;
+    }
+
+    public LocalDateTime getFinDescargue() {
+        return finDescargue;
+    }
+
+    public void setFinDescargue(LocalDateTime finDescargue) {
+        this.finDescargue = finDescargue;
+    }
+
+    public LocalDateTime getHoraSalida() {
+        return horaSalida;
+    }
+
+    public void setHoraSalida(LocalDateTime horaSalida) {
+        this.horaSalida = horaSalida;
+    }
+
+    public LocalDateTime getTimpoDescargue() {
+        return timpoDescargue;
+    }
+
+    public void setTimpoDescargue(LocalDateTime timpoDescargue) {
+        this.timpoDescargue = timpoDescargue;
+    }
+
+    public Integer getPesoBruto() {
+        return pesoBruto;
+    }
+
+    public void setPesoBruto(Integer pesoBruto) {
+        this.pesoBruto = pesoBruto;
+    }
+
+    public Integer getPesoFinal() {
+        return PesoFinal;
+    }
+
+    public void setPesoFinal(Integer pesoFinal) {
+        PesoFinal = pesoFinal;
+    }
+
+    public String getRuta() {
+        return ruta;
+    }
+
+    public void setRuta(String ruta) {
+        this.ruta = ruta;
+    }
+
+    public String getObservacion() {
+        return observacion;
+    }
+
+    public void setObservacion(String observacion) {
+        this.observacion = observacion;
+    }
+
+    public Integer getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(Integer tipo) {
+        this.tipo = tipo;
+    }
+
+    public Double getMcubico() {
+        return mcubico;
+    }
+
+    public void setMcubico(Double mcubico) {
+        this.mcubico = mcubico;
+    }
+
+    public Integer getCamionesPeso() {
+        return camionesPeso;
+    }
+
+    public void setCamionesPeso(Integer camionesPeso) {
+        this.camionesPeso = camionesPeso;
+    }
 }
